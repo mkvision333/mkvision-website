@@ -10,9 +10,9 @@
       highlights: ["Project tracking with structured records", "Daily site diary and work progress logs", "Materials, labour, bills, and expense visibility", "Photo-based documentation for field teams"],
       supportIntro: "Build Book support covers project records, billing questions, device sync issues, and app access concerns.",
       supportFaq: [
-        ["How do I report an issue?", "Email support@mkvision.in with the subject line Build Book Support and include your device model, app version, and a short description of the issue."],
+        ["How do I report an issue?", "mkvision333@gmail.com with the subject line Build Book Support and include your device model, app version, and a short description of the issue."],
         ["What should I include in bug reports?", "Please include the affected screen, what action you took, whether photos or location were involved, and any error message displayed."],
-        ["How are privacy questions handled?", "Privacy requests related to project data or stored images can be sent to privacy@mkvision.in for a dedicated review."]
+        ["How are privacy questions handled?", "Privacy requests related to project data or stored images can be sent to mkvision333@gmail.com for a dedicated review."]
       ],
       terms: [
         ["Acceptance", "By using Build Book, you agree to use the app only for lawful project management and record-keeping purposes."],
@@ -21,35 +21,51 @@
         ["Backup Responsibility", "Users remain responsible for keeping appropriate backups or export copies of important project records when needed."],
         ["User Content", "You are responsible for the accuracy of project names, diary entries, estimates, expense records, and uploaded site photos or documents."],
         ["Third-Party Services", "Build Book may use services such as Google Play Services and Google AdMob where enabled, each governed by their own provider terms."],
-        ["Contact", "Questions about Build Book terms can be sent to hello@mkvision.in."]
+        ["Contact", "Questions about Build Book terms can be sent to mkvision333@gmail.com."]
       ],
       privacy: [
-        ["Effective Date", "July 20, 2026"],
-        ["Developer Information", "Build Book is developed and published by MK VISION, India."],
-        ["Contact Email", "privacy@mkvision.in"],
-        ["Information We Collect", "Build Book may process project names, site diary entries, task lists, estimates, bills, materials, labour details, financial records, weather-related planning context, and photos that users choose to upload."],
-        ["Permissions Used", "Depending on feature usage and device settings, the app may request camera, storage or photo library, notification, and location permissions."],
-        ["Why Permissions Are Needed", "Permissions support project documentation, image capture, local file attachment, weather-aware planning, and timely reminders for important project activity."],
-        ["Location Usage", "If enabled by the user, approximate or precise location may be used to help show local weather context or associate entries with a work site. Location is not required for basic record management."],
-        ["Camera Usage", "Camera access is used when users capture site photos, bills, receipts, or progress documentation directly inside the app."],
-        ["Storage Usage", "Storage or media library access may be used to let users select existing images, download exports, or retain project-related files on their device."],
-        ["Notifications", "Notifications may be used for reminders, project activity prompts, and important service notices."],
-        ["Analytics", "We may use limited analytics to understand app reliability, feature usage patterns, and performance trends so we can improve the product."],
-        ["Crash Reporting", "Crash information may be collected to diagnose failures, improve stability, and reduce repeat errors."],
-        ["Advertising", "Build Book may display advertising in some versions of the app."],
-        ["Google AdMob", "If advertising is enabled, Google AdMob may collect device and usage signals as described in Google's own privacy documentation."],
-        ["Google Play Services", "Build Book may rely on Google Play Services for essential Android platform functionality such as notifications, diagnostics, or device compatibility."],
-        ["Firebase", "Firebase is not used unless specifically integrated in a future release and disclosed in an updated policy."],
-        ["Expo Services", "Expo Services are not used unless a future version of the app explicitly adopts them."],
-        ["Third-party SDKs", "Third-party SDKs may include Google Play Services and Google AdMob when enabled. Additional SDK use will be disclosed through policy updates."],
-        ["Data Retention", "User-provided project records are retained only as long as necessary to provide app functionality, maintain backups where applicable, resolve disputes, and comply with legal obligations."],
-        ["Data Deletion", "Users can request deletion-related assistance by contacting privacy@mkvision.in. Some locally stored records may also be removed directly from the device or app by the user."],
-        ["Children's Privacy", "Build Book is not directed to children under 13 and is intended for general business or professional use."],
-        ["Security", "We use reasonable administrative, technical, and organizational measures designed to protect user information, but no system can guarantee absolute security."],
-        ["User Rights", "Depending on applicable law, users may request access, correction, or deletion of personal information and may raise concerns about data handling practices."],
-        ["Changes to this Policy", "We may update this policy to reflect product changes, legal requirements, or improved disclosure. The effective date will be revised when updates are made."],
-        ["Contact", "For any privacy question about Build Book, contact privacy@mkvision.in."]
-      ]
+  ["Effective Date", "July 20, 2026"],
+
+  ["Developer Information", "Build Book is developed and published by MK VISION, India."],
+
+  ["Contact Email", "mkvision333@gmail.com"],
+
+  ["Introduction", "MK VISION operates the Build Book mobile application. This Privacy Policy explains what information may be processed when users use the app, how that information is used, and the choices available to users."],
+
+  ["Information You Provide", "Build Book helps users manage construction projects and related records. Depending on how the app is used, users may voluntarily enter project names, client information, site addresses, daily diary notes, tasks, reminders, income and expense records, material and labour records, bills, receipts, project photographs, and other project-related information."],
+
+  ["Camera Permission", "Camera permission may be used to capture project photos, bills, receipts, and construction progress images directly through the app."],
+
+  ["Photos and Media Permission", "Photos or media access may be used to allow users to select existing images from their device and attach them to project records."],
+
+  ["Storage Permission", "Storage access may be used only for saving or accessing project-related files, images, reports, or exports selected by the user."],
+
+  ["Notification Permission", "Notification permission may be used to send task reminders, project reminders, and important application notifications. Users can disable notifications at any time from device settings."],
+
+  ["Location Permission", "If location-based features are available and enabled by the user, the app may request approximate or precise location access to support location-related project or weather features. Location access is optional and can be disabled from device settings."],
+
+  ["How Information Is Used", "Information entered or selected by users is used to manage construction projects, maintain diary entries, track tasks and reminders, record materials and labour, manage income and expenses, organize project documents, improve app functionality, and provide features requested by the user."],
+
+  ["Advertising", "Build Book may display advertisements provided by Google AdMob. Google and its advertising partners may process device, usage, and advertising-related information according to Google's own policies."],
+
+  ["Third-Party Services", "Build Book may use Google Play Services and Google AdMob. These third-party services operate under their own privacy policies and terms."],
+
+  ["Data Storage", "Project information is stored only as required for the normal operation of the application. Some information may be stored locally on the user's device. Users are responsible for keeping suitable backups of important project records where necessary."],
+
+  ["Data Security", "We take reasonable administrative and technical measures to protect information used by the application. However, no electronic storage system or method of transmission can be guaranteed to be completely secure."],
+
+  ["Data Retention", "Project information is retained only as long as required for app functionality or until the user deletes the information or uninstalls the application, subject to any applicable technical or legal requirements."],
+
+  ["Data Deletion", "Users may delete project records directly through the app where deletion options are available. Users may also contact MK VISION at mkvision333@gmail.com for assistance with privacy or deletion-related questions."],
+
+  ["Children's Privacy", "Build Book is intended for general users and construction professionals. The application is not specifically directed to children under 13 years of age."],
+
+  ["User Choices", "Users may disable device permissions, disable notifications, delete project information where supported, or uninstall the application at any time."],
+
+  ["Changes to This Privacy Policy", "This Privacy Policy may be updated from time to time. Any changes will be published on this page together with a revised Effective Date."],
+
+  ["Contact", "For any privacy question regarding Build Book, contact MK VISION at mkvision333@gmail.com."]
+]
     },
     "pro-kp-astrology": {
       heroTitle: "Professional astrology tools with a refined mobile experience.",
