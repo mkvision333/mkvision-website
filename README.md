@@ -1,9 +1,47 @@
 # MK VISION Developer Website
 
-Upload all files to a public GitHub repository named `krishnavaastu.github.io`.
+Production-ready static website for MK VISION, built for GitHub Pages with HTML5, CSS3, and vanilla JavaScript.
 
-Enable Settings → Pages → Deploy from branch → main → /(root).
+## Architecture
 
-Website: https://krishnavaastu.github.io/
+- `index.html` is the homepage.
+- `assets/data/apps.json` stores the app catalog and shared metadata.
+- `assets/css/` contains the design system and shared page styles.
+- `assets/js/` contains shared behavior, app rendering, and page bootstrapping.
+- Each app lives in its own folder with:
+  - `index.html`
+  - `privacy.html`
+  - `terms.html`
+  - `support.html`
+- Shared company pages live in:
+  - `about/`
+  - `contact/`
+  - `privacy/`
+  - `support/`
+  - `terms/`
 
-Build Book privacy URL: https://krishnavaastu.github.io/build-book/privacy.html
+## GitHub Pages Deployment
+
+1. Push this repository to GitHub.
+2. Open repository `Settings`.
+3. Open `Pages`.
+4. Set source to `Deploy from a branch`.
+5. Choose your publishing branch and `/ (root)`.
+6. Save and wait for the deployment URL.
+
+## GitHub Pages Compatibility
+
+- All internal links use relative paths.
+- All shared assets use relative paths from each page depth.
+- No build step, package manager, or framework is required.
+
+## Adding a New App
+
+1. Create a new app folder at the repository root.
+2. Add `index.html`, `privacy.html`, `terms.html`, and `support.html`.
+3. Add the new app entry to `assets/data/apps.json`.
+4. Add the app to `sitemap.xml`.
+
+## Local Preview
+
+Open `index.html` directly in a browser, or serve the folder with any static file server.
